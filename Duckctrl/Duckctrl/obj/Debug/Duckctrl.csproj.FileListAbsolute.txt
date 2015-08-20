@@ -11,3 +11,16 @@ D:\Duckctrl\Duckctrl\Duckctrl\obj\Debug\Duckctrl.Properties.Resources.resources
 D:\Duckctrl\Duckctrl\Duckctrl\obj\Debug\Duckctrl.csproj.GenerateResource.Cache
 D:\Duckctrl\Duckctrl\Duckctrl\obj\Debug\Duckctrl.exe
 D:\Duckctrl\Duckctrl\Duckctrl\obj\Debug\Duckctrl.pdb
+D:\murDuckctrl\Duckctrl\Duckctrl\bin\Debug\Duckctrl.exe.config
+D:\murDuckctrl\Duckctrl\Duckctrl\obj\Debug\Duckctrl.exe
+D:\murDuckctrl\Duckctrl\Duckctrl\obj\Debug\Duckctrl.pdb
+D:\murDuckctrl\Duckctrl\Duckctrl\bin\Debug\Duckctrl.exe
+D:\murDuckctrl\Duckctrl\Duckctrl\bin\Debug\Duckctrl.pdb
+D:\murDuckctrl\Duckctrl\Duckctrl\obj\Debug\Duckctrl.csprojResolveAssemblyReference.cache
+D:\murDuckctrl\Duckctrl\Duckctrl\obj\Debug\MainWindow.baml
+D:\murDuckctrl\Duckctrl\Duckctrl\obj\Debug\MainWindow.g.cs
+D:\murDuckctrl\Duckctrl\Duckctrl\obj\Debug\App.g.cs
+D:\murDuckctrl\Duckctrl\Duckctrl\obj\Debug\Duckctrl_MarkupCompile.cache
+D:\murDuckctrl\Duckctrl\Duckctrl\obj\Debug\Duckctrl.g.resources
+D:\murDuckctrl\Duckctrl\Duckctrl\obj\Debug\Duckctrl.Properties.Resources.resources
+D:\murDuckctrl\Duckctrl\Duckctrl\obj\Debug\Duckctrl.csproj.GenerateResource.Cache

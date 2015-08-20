@@ -23,11 +23,20 @@ namespace Duckctrl
     public partial class MainWindow : Window
     {
         private System.IO.Ports.SerialPort serialPort =new System.IO.Ports.SerialPort();
+       private string[] ports = System.IO.Ports.SerialPort.GetPortNames();//获得可以使用的串口
         public MainWindow()
         {
             InitializeComponent();
             
-            
+            foreach (string port in ports)
+            {
+                //   this.ComBox.AppendText(port);
+               this.comlist.Items.Add(port);
+                
+                // this.comlist.Focus();
+
+            }
+
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -37,35 +46,32 @@ namespace Duckctrl
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
-                if (this.ComBox.Text.Length != 0)
+
+            if (this.openbtn.Content.ToString() == "open")
+            {
+                if (this.comlist.Text.Length != 0)
                 {
                     this.openbtn.Content = "close";
+                    serialPort.PortName = this.comlist.SelectedItem.ToString();
+                    this.comlist.Focus();
+                  
+                    //  serialPort.PortName = this.ComBox.Text.ToString();
+                    serialPort.BaudRate = 9600;
+                    serialPort.Parity = Parity.None;
+                    serialPort.DataBits = 8;
+                    serialPort.StopBits = StopBits.One;
                     serialPort.Open();
                 }
+            }
+            else
+            {
+                this.openbtn.Content = "open";
+                this.serialPort.Close();
+            }
 
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            
-            string[] ports = System.IO.Ports.SerialPort.GetPortNames();//获得可以使用的串口
-            foreach (string port in ports)
-            {
-                this.ComBox.AppendText(port);
-                serialPort.PortName = this.ComBox.Text.ToString();
-                serialPort.BaudRate = 9600;
-                serialPort.Parity = Parity.None;
-                serialPort.DataBits = 8;
-                serialPort.StopBits = StopBits.One;
-            }
-            if (ports.Length == 0)
-            {
-                MessageBox.Show("no Ports can use!");
-            }
-            
-            
-        }
+      
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
@@ -115,6 +121,23 @@ namespace Duckctrl
             this.Close();
         }
 
-      
+        private void minbtn_Click(object sender, RoutedEventArgs e) //最小化 按钮
+        {
+            this.WindowState = WindowState.Minimized;
+
+        }
+
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e) //拖动窗体
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+            {
+                DragMove();
+            }
+        }
+
+        private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
