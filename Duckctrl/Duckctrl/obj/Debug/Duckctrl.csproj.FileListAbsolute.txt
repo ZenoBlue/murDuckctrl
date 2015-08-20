@@ -1,0 +1,13 @@
+D:\Duckctrl\Duckctrl\Duckctrl\bin\Debug\Duckctrl.exe.config
+D:\Duckctrl\Duckctrl\Duckctrl\bin\Debug\Duckctrl.exe
+D:\Duckctrl\Duckctrl\Duckctrl\bin\Debug\Duckctrl.pdb
+D:\Duckctrl\Duckctrl\Duckctrl\obj\Debug\Duckctrl.csprojResolveAssemblyReference.cache
+D:\Duckctrl\Duckctrl\Duckctrl\obj\Debug\MainWindow.baml
+D:\Duckctrl\Duckctrl\Duckctrl\obj\Debug\MainWindow.g.cs
+D:\Duckctrl\Duckctrl\Duckctrl\obj\Debug\App.g.cs
+D:\Duckctrl\Duckctrl\Duckctrl\obj\Debug\Duckctrl_MarkupCompile.cache
+D:\Duckctrl\Duckctrl\Duckctrl\obj\Debug\Duckctrl.g.resources
+D:\Duckctrl\Duckctrl\Duckctrl\obj\Debug\Duckctrl.Properties.Resources.resources
+D:\Duckctrl\Duckctrl\Duckctrl\obj\Debug\Duckctrl.csproj.GenerateResource.Cache
+D:\Duckctrl\Duckctrl\Duckctrl\obj\Debug\Duckctrl.exe
+D:\Duckctrl\Duckctrl\Duckctrl\obj\Debug\Duckctrl.pdb
